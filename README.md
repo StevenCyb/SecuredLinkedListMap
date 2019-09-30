@@ -1,6 +1,6 @@
 # Secured Linked List Map
 The `SecuredLinkedList` is a library that provides the functionality of a Hashmap, without using hash.
-Basically it is a linked list with key referencing.
+Basically it is a linked list with key referencing. Furthermore, the implementation is thread-safe.
 A small demo is given in `demo.ino`. A detailed description of the functions can be found below.
 # Functions
 - [SecuredLinkedListMap()](#SecuredLinkedListMap)
