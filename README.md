@@ -3,14 +3,14 @@ The `SecuredLinkedList` is a library that provides the functionality of a Hashma
 Basically it is a linked list with key referencing.
 A small demo is given in `demo.ino`. A detailed description of the functions can be found below.
 # Functions
-[SecuredLinkedListMap()](#SecuredLinkedListMap)
-[void put(T1 key, T2 value)](#put)
-[bool has(T1 key)](#has)
-[void getAll(SecuredLinkedListMapElement<T1, T2>* copies)](#getAll)
-[T2 get(T1 key)](#get)
-[void remove(T1 key)](#remove)
-[int size()](#size)
-[void clear()](#clear)
+- [SecuredLinkedListMap()](#SecuredLinkedListMap)
+- [void put(T1 key, T2 value)](#put)
+- [bool has(T1 key)](#has)
+- [void getAll(SecuredLinkedListMapElement<T1, T2>* copies)](#getAll)
+- [T2 get(T1 key)](#get)
+- [void remove(T1 key)](#remove)
+- [int size()](#size)
+- [void clear()](#clear)
 <a name="SecuredLinkedListMap"></a>
 ## SecuredLinkedListMap()
 The `SecuredLinkedListMap` can be instantiated as follows.
